@@ -1,4 +1,4 @@
-module github.com/aflybird0/myapp
+module github.com/[[.Repo.Owner]]/[[.Repo.Name]]
 
 go 1.19
 

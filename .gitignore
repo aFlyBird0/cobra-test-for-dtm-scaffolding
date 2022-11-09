@@ -23,3 +23,5 @@
 
 ### macOS template
 .DS_Store
+
+dist/
