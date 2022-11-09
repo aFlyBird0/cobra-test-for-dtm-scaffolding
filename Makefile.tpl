@@ -12,11 +12,11 @@ install: ## Install dependencies
 
 .PHONY: dev
 dev: ## Run with Dev
-		@go run cmd/[[.AppName]]/main.go
+		@go run cmd/root.go
 
 .PHONY: build
 build: ## Build todomvc
-		@go build -o build/[[.AppName]] cmd/[[.AppName]]/main.go
+		@go build -o build/[[.AppName]] cmd/main.go
 
 clean: ### Remove build dir
 		@rm -rf build
