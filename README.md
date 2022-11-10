@@ -25,5 +25,4 @@ AppName: my-hello-world
 Repo:
   Owner: ironcore864
   Name: my-hello-world
-ImageRepo: ironcore864/my-hello-world # dockerhub
 ```
